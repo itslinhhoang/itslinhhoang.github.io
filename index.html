@@ -1,62 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <!--CSS Link-->
     <link rel="stylesheet" href="css/style.css" />
     <!--<link rel="stylesheet" href="css/responsiveNavBar.css">-->
 
     <title>Document</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <!--BaseCode for Nav Bar-->
-      <nav class="navbar hide">
+        <!--BaseCode for Nav Bar-->
+        <nav class="navbar hide">
             <div class="navcontent justify">
                 <a href="" class="nav-logo">
-                    <img/>
+                    <img src="./img/logo.svg" alt="linh hoang design + photography" />
                 </a>
-                <div class="burger navbar-toggle" id="js-navbar-toggle">
-                    <div class="l1"></div>
-                    <div class="l2"></div>
-                    <div class="l3"></div>
+                <div class="center">
+                    <div class="navcontainer">
+                        <a href="index.html" class="navlink middle-nav">DESIGN</a></li>
+                        <a href="index.html" class="navlink middle-nav">PHOTOGRAPHY</a></li>
+                    </div>
                 </div>
-                <ul class="mainnav list-style-remove" id="menu">
-                    <li><a href="index.html" class="navlink middle-nav">DESIGN</a></li>
-                    <li><a href="index.html" class="navlink middle-nav">PHOTOGRAPHY</a></li>
-                    <li><a href="index.html" class="navlink">about</a></li>
-                    <li><a href="/" class="navlink">contact</a></li>
-                </ul>
+                <div class="center">
+                    <div class="navcontainer">
+                        <a href="index.html" class="navlink nav-active">about</a></li>
+                        <a href="/" class="navlink">contact</a></li>
+                    </div>
+                </div>
             </div>
         </nav>
-      </div>
+        </div>
     </header>
     <main class="justify adjust">
-        <h1 class="tag-title">ABOUT</h1>
+        <div class="tag-title-container  white-space-top">
+            <h1 class="tag-title">ABOUT</h1>
+        </div>
         <div class="two-columns-grid">
             <div class="linh-photo">
                 <img src="img/linh-photo.jpg" alt="linh photo" srcset="">
             </div>
-            <div>
-                <p>Hi! I'm Linh. I love art, travelling, and cooking.</p>
-                <p>I started doing photography in high school back in Vietnam and I have been loved it since. My photos are mostly bright, clean, warm, soft, and creamy.</p>
-                <p>Coming to college, I know I wanted to be a designer and it has been an amazing journey. My experience as an intern at the EDGE Center have taught me a lot about web design, logo design, animation, and many more.</p>
+            <div class="text-container">
+                <div class="text-box">
+                    <p>Hi! I'm Linh. I love art, travelling, and cooking.</p>
+                    <p>I started doing photography in high school back in Vietnam and I have been loved it since. My
+                        photos are mostly bright, clean, warm, soft, and creamy.</p>
+                    <p>Coming to college, I know I wanted to be a designer and it has been an amazing journey. My
+                        experience as an intern at the EDGE Center have taught me a lot about web design, logo design,
+                        animation, and many more.</p>
+                </div>
             </div>
         </div>
         <div class="split-into-two-halves">
             <div>
-                <h2>EDUCATION</h2>
+                <h2 class="tag-sub-title">EDUCATION</h2>
                 <p>2021-2024</p>
                 <p class="subtitle">AUGUSTANA COLLEGE</p>
                 <p>Graphic Design Major<br>
-                Entertainment & Media Minor</p>
+                    Entertainment & Media Minor</p>
                 <p><a href="" download="linhresume">Download Resume</a></p>
             </div>
             <div>
@@ -81,12 +91,12 @@
         <h1 class="tag-title">CONTACT</h1>
         <div class="container">
             <form action="/action_page.php">
-              <input type="text" id="fname" name="firstname" placeholder="Name">
-              <input type="text" id="lname" name="lastname" placeholder="Email">
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-              <input type="submit" value="Submit">
+                <input type="text" id="fname" name="firstname" placeholder="Name">
+                <input type="text" id="lname" name="lastname" placeholder="Email">
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <input type="submit" value="Submit">
             </form>
-          </div>
+        </div>
     </main>
     <footer>
         <div class="contact-row justify adjust">
@@ -98,5 +108,6 @@
         <p class="tag-line justify adjust">let's make cool design & memories together</p>
     </footer>
     <script src="js/responsiveNavBar.js"></script>
-  </body>
+</body>
+
 </html>
