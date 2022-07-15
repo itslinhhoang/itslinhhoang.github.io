@@ -1,3 +1,9 @@
+@import url('fonts/Vegawanty.ttf');
+
+@font-face {
+  font-family: "Vegawanty";
+  src: url("/fonts/Vegawanty.ttf") format('truetype');
+}
 :root {
   --background-color: #fff9ee;
   --nav-active-height: 0.2rem;
@@ -9,12 +15,9 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: Vegawanty, serif;
+  font-family: "Vegawanty",'Playfair Display', serif;
 }
-@font-face {
-  font-family: Vegawanty;
-  src: url("/fonts/Vegawanty.ttf");
-}
+
 
 .subtitle {
     font-family: 'Montserrat', sans-serif;
@@ -345,5 +348,122 @@ input[type=text]:focus, textarea:focus {
 
 .position-text-box:last-child {
   margin-left: auto
+}
+/*End*/
+
+/* Need a tablet version, right now I am too lazy to code one */
+/*-----*/
+/*Mobile version*/
+@media screen and (max-width: 771px) {
+  .adjust {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .nav-logo img {
+    width: 100px;
+  }
+  main {
+    padding-top: 89px;
+  }
+  h1, h2{
+    font-size: 20px !important;
+  }
+  .tag-sub-title {
+    padding-bottom: 2rem;
+  }
+
+  .white-space-top {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+  p {
+    font-size: 18px !important;
+  }
+  .navbar {
+    position: fixed;
+    z-index: 10;
+    background-color: var(--background-color);  
+  }
+  .navlink {
+    font-size: 18px;
+    padding: 0.4rem 0.3rem;
+  }
+
+  .mainnav {
+    width: 100%;
+    background-color: black !important;
+    gap: 2rem !important;
+    color: white !important;
+  }
+
+  .mainnav .navlink {
+    color: white;
+  }
+
+  .mainnav .nav-active::after {
+    background-color: white;
+  }
+
+  .navcontainer {
+    display: flex;
+    justify-content: center !important;
+  }
+
+  .split-into-two-halves, .two-columns-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .linh-photo {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    height: 70vw;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text-container {
+    grid-row: 2 !important;
+  }
+
+  .button {
+    font-size: 20px;
+    padding: 0.7rem 4rem 0.4rem;
+  }
+
+  .formcontainer {
+    grid-template-columns: 1fr !important;
+  }
+
+  .formcontainer input, .formcontainer textarea {
+    grid-column: 1 !important;
+  }
+
+  input[type=text], textarea {
+    font-size: 20px;
+  }
+
+  .contact-row {
+    grid-template-columns: 1fr;
+  }
+
+  .dark-row div {
+    grid-template-columns: 1fr;
+  }
+
+  .position-text-box {
+    font-size: 17px !important;
+    text-align: center;
+  }
+
+  .position-text-box:first-child {
+    grid-row: 2;
+  }
+
+  .position-text-box:last-child {
+    margin-left: revert !important;
+  }
+
+
 }
 /*End*/
