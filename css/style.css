@@ -383,7 +383,6 @@ input[type=text]:focus, textarea:focus {
     position: fixed;
     z-index: 10;
     background-color: var(--background-color);  
-    backdrop-filter: blur(10px);
   }
   .navlink {
     font-size: 18px;
