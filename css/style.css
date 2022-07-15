@@ -11,6 +11,8 @@
   box-sizing: border-box;
   font-family: Vegawanty, serif;
 }
+@import url('fonts/Vegawanty.ttf');
+
 @font-face {
   font-family: Vegawanty;
   src: url("/fonts/Vegawanty.ttf");
