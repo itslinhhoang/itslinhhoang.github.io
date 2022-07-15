@@ -12,7 +12,7 @@
         rel="stylesheet">
     <!--CSS Link-->
     <link rel="stylesheet" href="css/style.css" />
-    <!--<link rel="stylesheet" href="css/responsiveNavBar.css">-->
+    <link rel="stylesheet" href="css/responsiveNavBar.css">
 
     <title>Document</title>
 </head>
@@ -32,7 +32,12 @@
                     </div>
                 </div>
                 <div class="center">
-                    <div class="navcontainer">
+                    <div class="burger navbar-toggle" id="js-navbar-toggle">
+                        <div class="l1"></div>
+                        <div class="l2"></div>
+                        <div class="l3"></div>
+                    </div>
+                    <div class="navcontainer mainnav" id="menu">
                         <a href="index.html" class="navlink nav-active">about</a></li>
                         <a href="/" class="navlink">contact</a></li>
                     </div>
@@ -91,11 +96,12 @@
         <div class="tag-title-container  white-space-top">
             <h1 class="tag-title">CONTACT</h1>
         </div>
-        <form class="formcontainer">
-            <input type="text" id="fname" name="name" placeholder="Name">
-            <input type="text" id="fname" name="subject" placeholder="Subject">
-            <input type="text" id="lname" name="email" placeholder="Email">
-            <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
+        <form action="https://formsubmit.co/bebc583c012039a1ee69fedbfa962606"
+        method="POST" class="formcontainer">
+            <input type="text" id="fname" name="name" placeholder="Name" required>
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            <input type="text" id="email" name="email" placeholder="Email" required>
+            <textarea id="message" name="message" placeholder="Message" required style="height:200px"></textarea>
             <input class="button" type="submit" value="Submit">
         </form>
         </div>

@@ -69,6 +69,7 @@ body {
 
 .center {
   display: grid;
+  grid-template-rows: 1fr !important;
   justify-content: center;
   align-items: center;
 }
@@ -340,5 +341,9 @@ input[type=text]:focus, textarea:focus {
   align-content: center;
   height: 100px;
   padding: 1rem;
+}
+
+.position-text-box:last-child {
+  margin-left: auto
 }
 /*End*/

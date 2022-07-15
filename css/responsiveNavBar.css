@@ -1,7 +1,7 @@
 :root {
     --col1: #d64045;
     --col2: #e9fff9;
-    --col3: #9ed8db;
+    --col3: rgba(0,0,0,0);
     --col4: #467599;
     --col5: #1d3354;
     --height-of-navbar: 186.48px;
