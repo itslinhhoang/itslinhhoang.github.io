@@ -1,4 +1,4 @@
-I"6
+I""
 <div class="tag-title-container  white-space-top">
     <h1 class="tag-title">ABOUT</h1>
 </div>
@@ -55,5 +55,4 @@
     <textarea id="message" name="message" placeholder="Message" required="" style="height:200px"></textarea>
     <input class="button" type="submit" value="Submit" />
 </form>
-<p>&lt;/div&gt;</p>
 :ET

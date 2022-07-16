@@ -60,4 +60,3 @@ description: Linh started doing photography in high school back in Vietnam and s
     <textarea id="message" name="message" placeholder="Message" required style="height:200px"></textarea>
     <input class="button" type="submit" value="Submit">
 </form>
-</div>
