@@ -9,3 +9,8 @@ navBarToggle.addEventListener('click', function () {
     burger.classList.toggle('toggle');
     mainNav.classList.toggle('active');
 });
+
+mainNav.addEventListener('click', function () {
+    burger.classList.toggle('toggle');
+    mainNav.classList.toggle('active');
+});

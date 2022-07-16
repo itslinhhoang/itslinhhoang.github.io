@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Vegawanty";
-  src: url("/fonts/Vegawanty.ttf") format('truetype');
+  src: url("fonts/Vegawanty.ttf") format('truetype');
 }
 :root {
   --background-color: #fff9ee;
