@@ -1,0 +1,6 @@
+name: linhhoang
+title: linhhoang
+permalink: /:categories/:title/
+baseurl: /
+plugins:
+- jekyll-seo-tag
