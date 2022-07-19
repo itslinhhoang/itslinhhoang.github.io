@@ -1,0 +1,19 @@
+{% include header.html %}
+
+<main class="justify adjust">
+    <div class="two-columns-grid white-space-top">
+        <div class="linh-photo">
+            <img src="{{ "/img/linh-photo.jpg" | baseurl }}" alt="linh photo" srcset="">
+        </div>
+        <div class="text-container">
+            <div class="text-box">
+                <h1>Hello! My name is Linh. I'm a <span class="sub-tag-title">photographer</span> and junior <span class="sub-tag-title">graphic design</span> student at Augustana College.</h1>
+            </div>
+        </div>
+    </div>
+
+    {{ content }}
+
+</main>
+
+{% include footer.html %}
