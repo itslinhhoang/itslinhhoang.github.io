@@ -1,0 +1,42 @@
+I"ü<p>Here is some guide to markdown syntax</p>
+
+<h1 id="heading-1">Heading 1</h1>
+<h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+
+<p>This is a paragraph.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque diam volutpat commodo sed. Egestas integer eget aliquet nibh. Facilisis sed odio morbi quis commodo odio aenean. Vulputate dignissim suspendisse in est. Nisi porta lorem mollis aliquam ut porttitor. Nibh ipsum consequat nisl vel pretium lectus quam. Erat imperdiet sed euismod nisi porta lorem mollis. Euismod in pellentesque massa placerat duis ultricies lacus. Tristique sollicitudin nibh sit amet commodo. Ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis. Nunc sed id semper risus in hendrerit. Nec sagittis aliquam malesuada bibendum arcu vitae elementum. Risus nec feugiat in fermentum. In fermentum posuere urna nec tincidunt praesent semper feugiat.</p>
+
+<p>Ut etiam sit amet nisl purus in mollis nunc. At erat pellentesque adipiscing commodo elit at. Amet justo donec enim diam vulputate ut. Amet justo donec enim diam vulputate ut pharetra sit. Egestas dui id ornare arcu odio ut sem. Adipiscing elit pellentesque habitant morbi tristique senectus et netus et. Lorem ipsum dolor sit amet consectetur adipiscing elit ut. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Lectus mauris ultrices eros in. Urna condimentum mattis pellentesque id nibh. Sed enim ut sem viverra aliquet eget. Vel pretium lectus quam id leo in vitae. Tellus pellentesque eu tincidunt tortor aliquam. Gravida rutrum quisque non tellus orci.</p>
+
+<p>This is a list:</p>
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ol>
+
+<ul>
+  <li>also list</li>
+  <li>also list</li>
+  <li>also list</li>
+  <li>also list</li>
+</ul>
+
+<p><img src="/img/couples.jpg" alt="Web Design" /></p>
+
+<blockquote>
+  <p>This is a block quote</p>
+</blockquote>
+
+<p>You can <strong>bold</strong> text like this and <em>italic</em></p>
+
+<p>This will create horizontal rule</p>
+
+<hr />
+
+<p><a href="thispartisthelink">You can link stuff like this, this part is text</a></p>
+
+<p>For more please visit <a href="https://www.markdownguide.org/basic-syntax/">Basic Syntax Guide</a></p>
+:ET

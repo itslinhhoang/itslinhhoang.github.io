@@ -24,6 +24,9 @@
     <!--CSS Link-->
     <link rel="stylesheet" href="{{ "/css/style.css" | baseurl }}" />
     <link rel="stylesheet" href="{{ "/css/responsiveNavBar.css" | baseurl }}">
+    {% if page.title != "design" and page.title != "about" and page.title != "photography" %}
+        <link rel="stylesheet" href="{{ "/css/page.css" | baseurl }}">
+    {% endif %}
     <link rel="shortcut icon" href="{{ "/img/footer-logo.svg" | baseurl }}" type="image/x-icon">
 </head>
 
@@ -37,8 +40,8 @@
                 </a>
                 <div class="center">
                     <div class="navcontainer">
-                        <a href="/design" class="navlink middle-nav">DESIGN</a></li>
-                        <a href="/photography" class="navlink middle-nav">PHOTOGRAPHY</a></li>
+                        <a href="/design" class="navlink middle-nav {% if page.title == "design" %}nav-active{% endif %}">DESIGN</a></li>
+                        <a href="/photography" class="navlink middle-nav {% if page.title == "photography" %}nav-active{% endif %}">PHOTOGRAPHY</a></li>
                     </div>
                 </div>
                 <div class="center">

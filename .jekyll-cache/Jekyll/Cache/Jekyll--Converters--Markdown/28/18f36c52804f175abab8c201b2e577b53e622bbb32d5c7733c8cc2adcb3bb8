@@ -1,0 +1,24 @@
+I"8<div class="tag-title-container  white-space-top" id="contact">
+    <h1 class="tag-title">WORKS</h1>
+</div>
+
+<div class="gallery">
+
+
+
+    <a href="/design/webdesign/" class="photo-container">
+        <div class="photo-frame square">
+            <img src="/img/web-design.png" alt="Web Design" />
+        </div>
+        <p>Web Design</p>
+    </a>
+
+    <a href="/design/typography/" class="photo-container">
+        <div class="photo-frame square">
+            <img src="/img/typography.png" alt="Typography" />
+        </div>
+        <p>Typography</p>
+    </a>
+
+</div>
+:ET

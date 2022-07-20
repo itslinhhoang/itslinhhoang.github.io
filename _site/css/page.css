@@ -1,0 +1,43 @@
+
+main p, main a {
+    font-size: 22px;
+}
+
+main img {
+    width: 100%;
+  }
+  
+  
+  main blockquote {
+    background-color: white;
+    padding: 1em !important;
+    padding-left: 1.5em;
+    border-left: solid 0.2rem black;
+    margin-bottom: 1.5rem;
+  }
+  
+  main blockquote p {
+    padding-bottom: 0;
+  }
+  
+h1, h2, h3 {
+    text-align: center;
+}
+
+main ol, main ul {
+    padding-left: 1rem;
+    font-size: inherit;
+}
+
+main p > img {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+@media screen and (max-width: 771px) {
+  main p > img {
+    padding-left: revert;
+    padding-right: revert;
+  }
+}
+

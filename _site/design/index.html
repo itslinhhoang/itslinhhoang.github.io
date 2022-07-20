@@ -15,11 +15,13 @@
 <link rel="canonical" href="http://localhost:4000/design/" />
 <meta property="og:url" content="http://localhost:4000/design/" />
 <meta property="og:site_name" content="linhhoang" />
+<meta property="og:image" content="http://localhost:4000/img/linh-photo.jpg" />
 <meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/img/linh-photo.jpg" />
 <meta property="twitter:title" content="design" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Hi I am Linh, a student, photographer, designer at Augustana College.","headline":"design","url":"http://localhost:4000/design/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Hi I am Linh, a student, photographer, designer at Augustana College.","headline":"design","image":"http://localhost:4000/img/linh-photo.jpg","url":"http://localhost:4000/design/"}</script>
 <!-- End Jekyll SEO tag -->
 
     <title>
@@ -40,6 +42,7 @@
     <!--CSS Link-->
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/responsiveNavBar.css">
+    
     <link rel="shortcut icon" href="/img/footer-logo.svg" type="image/x-icon">
 </head>
 
@@ -53,8 +56,8 @@
                 </a>
                 <div class="center">
                     <div class="navcontainer">
-                        <a href="/design" class="navlink middle-nav">DESIGN</a></li>
-                        <a href="/photography" class="navlink middle-nav">PHOTOGRAPHY</a></li>
+                        <a href="/design" class="navlink middle-nav nav-active">DESIGN</a></li>
+                        <a href="/photography" class="navlink middle-nav ">PHOTOGRAPHY</a></li>
                     </div>
                 </div>
                 <div class="center">
@@ -81,27 +84,53 @@
         </div>
         <div class="text-container">
             <div class="text-box">
+            
                 <h1>Hello! My name is Linh. I'm a <span class="sub-tag-title">photographer</span> and junior <span class="sub-tag-title">graphic design</span> student at Augustana College.</h1>
                 <div class="learn-more-about">
                     <a class="learn-more" href="/">More about me</a>
                     <i class="arrow right"></i>
                 </div>
+            
             </div>
         </div>
     </div>
 
-    
+    <div class="tag-title-container  white-space-top" id="contact">
+    <h1 class="tag-title">WORKS</h1>
+</div>
+
+<div class="gallery">
+
+
+
+    <a href="/design/illustration/" class="photo-container">
+        <div class="photo-frame square">
+            <img src="/img/illustration.jpg" alt="Illustration" />
+        </div>
+        <p>Illustration</p>
+    </a>
+
+    <a href="/design/typography/" class="photo-container">
+        <div class="photo-frame square">
+            <img src="/img/typography.jpg" alt="Typography" />
+        </div>
+        <p>Typography</p>
+    </a>
+
+    <a href="/design/webdesign/" class="photo-container">
+        <div class="photo-frame square">
+            <img src="/img/web-design.png" alt="Web Design" />
+        </div>
+        <p>Web Design</p>
+    </a>
+
+</div>
 
 
 </main>
 
 <footer>
-    <div class="contact-row justify adjust">
-        <p>linhhoang20@augustana.edu</p>
-        <p>775-990-2639</p>
-        <p><a href="http://">Behance</a></p>
-        <p><a href="http://">Instagram</a></p>
-    </div>
+
     <p class="tag-line justify adjust">let's make cool design & memories together</p>
     <div class="dark-row">
         <div class="justify adjust">
@@ -114,7 +143,7 @@
     </div>
 </footer>
 
-<script src=""></script>
+<script src="/js/responsiveNavBar.js"></script>
 </body>
 
 </html>
