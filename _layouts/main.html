@@ -1,0 +1,28 @@
+{% include header.html %}
+
+<main class="justify adjust">
+    <div class="two-columns-grid white-space-top">
+        <div class="linh-photo">
+            <img src="{{ page.image | baseurl }}" alt="linh photo" srcset="">
+        </div>
+        <div class="text-container">
+            <div class="text-box">
+            {% if page.title == "design" or page.title == "photography" %}
+                <h1>Hello! My name is Linh. I'm a <span class="sub-tag-title">photographer</span> and junior <span class="sub-tag-title">graphic design</span> student at Augustana College.</h1>
+                <div class="learn-more-about">
+                    <a class="learn-more" href="/">More about me</a>
+                    <i class="arrow right"></i>
+                </div>
+            {% else %}
+                <h1>{{ page.title }}</h1>
+            {% endif %}
+            </div>
+        </div>
+    </div>
+
+    {{ content }}
+
+</main>
+
+<footer>
+{% include footer.html %}

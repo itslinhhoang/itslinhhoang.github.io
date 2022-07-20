@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% seo %}
+    <title>
+        {{ site.title }}
+        {% if page.title != "about" %}: 
+            {{ page.title }}
+        {% endif %}
+    </title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!--CSS Link-->
+    <link rel="stylesheet" href="{{ "/css/style.css" | baseurl }}" />
+    <link rel="stylesheet" href="{{ "/css/responsiveNavBar.css" | baseurl }}">
+    {% if page.title != "design" and page.title != "about" and page.title != "photography" %}
+        <link rel="stylesheet" href="{{ "/css/page.css" | baseurl }}">
+    {% endif %}
+    <link rel="shortcut icon" href="{{ "/img/footer-logo.svg" | baseurl }}" type="image/x-icon">
+</head>
+
+<body>
+<header>
+        <!--BaseCode for Nav Bar-->
+        <nav class="navbar hide">
+            <div class="navcontent justify adjust">
+                <a href="/" class="nav-logo">
+                    <img src="{{ "/img/logo.svg" | baseurl }}" alt="linh hoang design + photography" />
+                </a>
+                <div class="center">
+                    <div class="navcontainer">
+                        <a href="/design" class="navlink middle-nav {% if page.title == "design" %}nav-active{% endif %}">DESIGN</a></li>
+                        <a href="/photography" class="navlink middle-nav {% if page.title == "photography" %}nav-active{% endif %}">PHOTOGRAPHY</a></li>
+                    </div>
+                </div>
+                <div class="center">
+                    <div class="burger navbar-toggle" id="js-navbar-toggle">
+                        <div class="l1"></div>
+                        <div class="l2"></div>
+                        <div class="l3"></div>
+                    </div>
+                    <div class="navcontainer mainnav" id="menu">
+                        <a href="/" class="navlink {% if page.title == "about" %}nav-active{% endif %}">about</a></li>
+                        <a href="/#contact" class="navlink">contact</a></li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        </div>
+    </header>
+    
