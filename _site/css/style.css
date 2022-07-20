@@ -173,7 +173,7 @@ footer a:hover::after, footer a:active::after {
   font-size: 40px;
   font-weight: 500;
   position: relative;
-  padding: 1rem 3.5rem 0.7rem;
+  padding: 0.3rem 3.5rem 0rem;
   text-align: center;
 }
 
@@ -206,7 +206,6 @@ span.sub-tag-title {
 
 .text-container {
   display: grid;
-  align-content: center;
 }
 
 .linh-photo {
@@ -333,12 +332,33 @@ input[type=text]:focus, textarea:focus {
   padding: 0 !important;
 }
 
+.text-box h1 {
+  font-size: 3.5rem;
+}
+
 .position-text-box a {
   color: var(--background-color);
 }
 
 .position-text-box a::after {
   background-color: var(--background-color);
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.learn-more {
+  font-size: 2rem;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 0.2rem 0.2rem 0;
+  display: inline-block;
+  padding: 0.3rem;
 }
 
 .dark-row div img {
